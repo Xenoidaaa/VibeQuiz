@@ -135,7 +135,7 @@ const showNextBtn = () => {
       const btnBack = document.createElement('a');
       btnBack.textContent = `Kembali`;
       btnBack.className = "w-64 bg-purple-700 hover:bg-purple-600 p-2 rounded-2xl font-Plus-Jakarta-sans text-center"
-      btnBack.href = "quizCategory.html"
+      btnBack.href = "../quizCategory.html"
       getQuestion.appendChild(btnBack);
     }
   });
